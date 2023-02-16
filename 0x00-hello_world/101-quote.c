@@ -2,9 +2,10 @@
 #include <unistd.h>
 
 /**
- * main - Prints a statement without using any function listed in the NAME section
+ * main - Prints a statement without using any
+ * function listed in the NAME section
  *
- * Return: 1 Always 
+ * Return: 1 Always
  */
 
 int main(void)
