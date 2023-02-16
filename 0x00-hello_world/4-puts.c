@@ -2,9 +2,9 @@
 
 
 /**
- *This file print out a statement using the puts function 
- *main - Entry point
- *Return: Always 0 (success)
+ *Description:	This file print out a statement using the puts function 
+ *main:	Entry point
+ *Return:	Always 0 (success)
  */
 
 
