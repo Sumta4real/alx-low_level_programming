@@ -29,7 +29,7 @@ char *_strdup(char *str)
 
 	if (duplicate_str == NULL)
 	{
-		return (NULL)
+		return (NULL);
 	}
 
 	while ((duplicate_str[i] = str[i]) != '\0')
