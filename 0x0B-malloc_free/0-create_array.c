@@ -3,6 +3,8 @@
 /**
  * create_array - create array of characters
  *
+ * @size - size of the array
+ * @c - dsired character
  * Return:NULL (if fails), pointer to array (if successful)
  */
 
