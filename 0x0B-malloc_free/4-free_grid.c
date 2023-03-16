@@ -2,10 +2,10 @@
 
 /**
  * free_grid - frees a 2-d grid previously created by 
- *  alloc_grid function
+ * alloc_grid function
  *
- *  @grid: the 2-d grid to be freed
- *  @height: height of the grid
+ * @grid: the 2-d grid to be freed
+ * @height: height of the grid
  */
 
 void free_grid(int **grid, int height)
