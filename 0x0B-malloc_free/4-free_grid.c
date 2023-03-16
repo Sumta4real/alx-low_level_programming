@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * free_grid - frees a 2-d grid previously created by 
+ * free_grid - frees a 2-d grid previously created by
  * alloc_grid function
  *
  * @grid: the 2-d grid to be freed
