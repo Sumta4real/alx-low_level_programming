@@ -7,7 +7,8 @@
  * @min: lowest value in the array
  * @max: highest value in the array
  *
- * Return: the pointer to the newly created array(on success), NULL (on failure)
+ * Return: the pointer to the newly created
+ * array(on success), NULL (on failure)
  */
 
 int *array_range(int min, int max)
@@ -17,7 +18,7 @@ int *array_range(int min, int max)
 
 	if (min > max)
 		return (NULL);
-	
+
 	arr_size = (max - min) + 1;
 	arr = (int *)malloc(sizeof(int) * arr_size);
 	if (arr == NULL)
