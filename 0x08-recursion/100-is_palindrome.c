@@ -30,7 +30,7 @@ int str_vs_reverse(char *s, int l)
 		return (0);
 	else if (*s == 0)
 		return (1);
-	return (str_vs_reverse(s + 1, l - 1));
+	return (str_vs_reverse(s + 1, l - 2));
 }
 
 /**
