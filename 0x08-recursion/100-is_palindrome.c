@@ -30,7 +30,7 @@ int str_vs_reverse(char *s, int l)
 		return (0);
 	else if (*s == 0)
 		return (1);
-	return (palind3(s + 1, l - 2));
+	return (str_vs_reverse(s + 1, l - 2));
 }
 
 /**
