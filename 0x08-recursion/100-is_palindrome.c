@@ -30,7 +30,7 @@ int str_vs_reverse(char *s, int l)
 		return (0);
 	else if (*s == 0)
 		return (1);
-	return (str_vs_reverse(s + 1, l - 2));
+	return (str_vs_reverse(s + 1, l - 1));
 }
 
 /**
@@ -42,5 +42,5 @@ int is_palindrome(char *s)
 {
 	int len = _strlen_recursion(s);
 
-	return (str_vs_reverse(s, len + 1));
+	return (str_vs_reverse(s, len));
 }
